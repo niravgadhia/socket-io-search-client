@@ -1,0 +1,25 @@
+{
+  "name": "socket-io-search-client",
+  "version": "1.0.0",
+  "description": "Socket io client demo to search movies by people name",
+  "main": "search-client.js",
+  "scripts": {
+    "start": "node search-client.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niravgadhia/socket-io-search-client.git"
+  },
+  "keywords": [],
+  "author": "Nirav Gadhia <niravgadhia@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niravgadhia/socket-io-search-client/issues"
+  },
+  "homepage": "https://github.com/niravgadhia/socket-io-search-client#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "readline": "^1.3.0",
+    "socket.io-client": "^4.4.0"
+  }
+}

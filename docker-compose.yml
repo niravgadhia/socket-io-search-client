@@ -1,0 +1,14 @@
+version: "3"
+services:
+
+  client:
+    image: ${DOCKER_IMAGE_ACCOUNT}/${DOCKER_IMAGE_PREFIX}-client:${DOCKER_IMAGE_TAG}
+    build: .
+    depends_on:
+      - socketio-backend
+    environment:
+      HOST: http://socketio-backend
+      PORT: 3000
+  
+  socketio-backend:
+    image: clonardo/socketio-backend
